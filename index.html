@@ -1,10 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <title>Off Canvas Menu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  
+  <!-- Styles -->
+  
+  <style>
+      #map {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
 </head>
-<body>
+<body style="width: 100%;">
+    <nav>
+        <ul class="list-unstyled main-menu">
+          
+          <!--Include your navigation here-->
+          <li class="text-right"><a href="#" id="nav-close">X</a></li>
+          <li><a href="#">Menu One <span class="icon"></span></a></li>
+          <li><a href="#">Menu Two <span class="icon"></span></a></li>
+          <li><a href="#">Menu Three <span class="icon"></span></a></li>
+          <li><a href="#">Dropdown</a>
+            <ul class="list-unstyled">
+                <li class="sub-nav"><a href="#">Sub Menu One <span class="icon"></span></a></li>
+                <li class="sub-nav"><a href="#">Sub Menu Two <span class="icon"></span></a></li>
+                <li class="sub-nav"><a href="#">Sub Menu Three <span class="icon"></span></a></li>
+                <li class="sub-nav"><a href="#">Sub Menu Four <span class="icon"></span></a></li>
+                <li class="sub-nav"><a href="#">Sub Menu Five <span class="icon"></span></a></li>
+            </ul>
+          </li>
+          <li><a href="#">Menu Four <span class="icon"></span></a></li>
+          <li><a href="#">Menu Five <span class="icon"></span></a></li>
+        </ul>
+      </nav>
+          
+    <div class="navbar navbar-inverse navbar-fixed-top">      
+        
+        <!--Include your brand here-->
+        <a class="navbar-brand" href="#">Galway Bus Routes</a>
+        <div class="navbar-header pull-right">
+          <a id="nav-expander" class="nav-expander fixed">
+            MENU &nbsp;<i class="fa fa-bars fa-lg white"></i>
+          </a>
+        </div>
+    </div>    
+    <div id="map"></div>
+    <script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+        var map = new google.maps.Map(mapDiv, {
+          center: {lat: 44.540, lng: -78.546},
+          zoom: 8
+        });
+      }
+    </script>
 
-</body>
+    <!-- Javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.navgoco.js"></script>
+    <script src="/js/main.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/main.css">
+    
+    <script>
+    $(document).ready(function(){												
+       
+       //Navigation Menu Slider
+        $('#nav-expander').on('click',function(e){
+      		e.preventDefault();
+      		$('body').toggleClass('nav-expanded');
+      	});
+      	$('#nav-close').on('click',function(e){
+      		e.preventDefault();
+      		$('body').removeClass('nav-expanded');
+      	});
+      	
+      	
+      	// Initialize navgoco with default options
+        $(".main-menu").navgoco({
+            caret: '<span class="caret"></span>',
+            accordion: false,
+            openClass: 'open',
+            save: true,
+            cookie: {
+                name: 'navgoco',
+                expires: false,
+                path: '/'
+            },
+            slide: {
+                duration: 300,
+                easing: 'swing'
+            }
+        });
+  
+        	
+      });
+      </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4n-T1JV4YOM7WGUCFyO3Bg8WwjILz1W0&callback=initMap" async defer></script>
+
+
+   
+    </body>
 </html>

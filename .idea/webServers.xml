@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9ae6f53d-398c-44bf-84a4-9de6f9c6b530" name="GalwayBusInfoServer" url="http://galwaybusroutes.info/">
+        <fileTransfer host="galwaybusroutes.info" port="21" rootFolder="/webspace/httpdocs/galwaybusroutes.info">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
