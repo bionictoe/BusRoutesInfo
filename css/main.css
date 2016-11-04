@@ -4,6 +4,14 @@
    Author's custom styles
    ========================================================================== */
 
+#map {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
 body
 {
 	background-color: #fff;
@@ -57,10 +65,10 @@ nav {
   height: 100%;
   overflow: auto;
   position: fixed;
-  right: -20em;
+  right: -30em;
   font-size: 15px;
   top: 0;
-  width: 20em;
+  width: 30em;
   z-index: 2000;
   
   transition: right 0.3s ease-in-out 0s;
