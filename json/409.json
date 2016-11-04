@@ -1,0 +1,471 @@
+{
+  "outbound": [
+    {
+      "short_name": "College Road",
+      "long_name": "College Rd Galway (Opp Loyola Pk)",
+      "stop_id": 8361,
+      "stop_ref": "523671",
+      "irish_short_name": "Bóthar an Choláiste",
+      "irish_long_name": "",
+      "latitude": 53.28011,
+      "longitude": -9.03617
+    },
+    {
+      "short_name": "College Road",
+      "long_name": "College Rd Galway (Opp Sportsground)",
+      "stop_id": 8362,
+      "stop_ref": "523681",
+      "irish_short_name": "Bóthar an Choláiste",
+      "irish_long_name": "",
+      "latitude": 53.27877,
+      "longitude": -9.03824
+    },
+    {
+      "short_name": "College Road",
+      "long_name": "College Rd Galway (Opp City Hall)",
+      "stop_id": 8363,
+      "stop_ref": "523691",
+      "irish_short_name": "Bóthar an Choláiste",
+      "irish_long_name": "",
+      "latitude": 53.27642,
+      "longitude": -9.04153
+    },
+    {
+      "short_name": "Deochuisce Rd",
+      "long_name": "Doughiska Rd (Brierhill Shop Centre)",
+      "stop_id": 8452,
+      "stop_ref": "524261",
+      "irish_short_name": "Br Dhabhach Uisce",
+      "irish_long_name": "",
+      "latitude": 53.2897,
+      "longitude": -8.98746
+    },
+    {
+      "short_name": "Deochuisce Rd",
+      "long_name": "Doughiska Rd (Opp Nestors Centra)",
+      "stop_id": 8453,
+      "stop_ref": "524271",
+      "irish_short_name": "Br Dhabhach Uisce",
+      "irish_long_name": "",
+      "latitude": 53.28653,
+      "longitude": -8.98381
+    },
+    {
+      "short_name": "Deochuisce Rd",
+      "long_name": "Doughiska Rd (Opp Primary School)",
+      "stop_id": 8454,
+      "stop_ref": "524281",
+      "irish_short_name": "Br Dhabhach Uisce",
+      "irish_long_name": "",
+      "latitude": 53.28496,
+      "longitude": -8.98198
+    },
+    {
+      "short_name": "Deochuisce Rd",
+      "long_name": "Doughiska Rd (Opp An Fiodan)",
+      "stop_id": 8455,
+      "stop_ref": "524291",
+      "irish_short_name": "Br Dhabhach Uisce",
+      "irish_long_name": "",
+      "latitude": 53.28217,
+      "longitude": -8.97885
+    },
+    {
+      "short_name": "Deochuisce Rd",
+      "long_name": "Doughiska Rd (Castan)",
+      "stop_id": 8456,
+      "stop_ref": "524311",
+      "irish_short_name": "Br Dhabhach Uisce",
+      "irish_long_name": "",
+      "latitude": 53.28097,
+      "longitude": -8.97748
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (Opp Woodhaven)",
+      "stop_id": 8284,
+      "stop_ref": "522831",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.27654,
+      "longitude": -9.00506
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (Opp GMIT)",
+      "stop_id": 7911,
+      "stop_ref": "522841",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.27717,
+      "longitude": -9.01056
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (Woodlands)",
+      "stop_id": 8295,
+      "stop_ref": "522961",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.28022,
+      "longitude": -9.02664
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (Opp G Hotel)",
+      "stop_id": 8296,
+      "stop_ref": "522971",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.28174,
+      "longitude": -9.03293
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (Kingsvalley Hotel)",
+      "stop_id": 8458,
+      "stop_ref": "524331",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.27499,
+      "longitude": -8.99944
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (Dawn Dairies)",
+      "stop_id": 8459,
+      "stop_ref": "524341",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.27761,
+      "longitude": -9.01396
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (Opp Glenina Hgts)",
+      "stop_id": 8460,
+      "stop_ref": "524351",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.2785,
+      "longitude": -9.01902
+    },
+    {
+      "short_name": "Foster St",
+      "long_name": "Forster St (Morgans Hotel)",
+      "stop_id": 8364,
+      "stop_ref": "524361",
+      "irish_short_name": "Sr Foster",
+      "irish_long_name": "",
+      "latitude": 53.27497,
+      "longitude": -9.04656
+    },
+    {
+      "short_name": "Parkmore Rd",
+      "long_name": "Parkmore Rd (Opp Racecourse Side Gate)",
+      "stop_id": 8343,
+      "stop_ref": "523441",
+      "irish_short_name": "Br na Páirce Móire",
+      "irish_long_name": "",
+      "latitude": 53.29734,
+      "longitude": -8.9862
+    },
+    {
+      "short_name": "Parkmore Rd",
+      "long_name": "Parkmore Rd (Roundabout)",
+      "stop_id": 8342,
+      "stop_ref": "635561",
+      "irish_short_name": "Br na Páirce Móire",
+      "irish_long_name": "",
+      "latitude": 53.29909,
+      "longitude": -8.98695
+    }
+  ],
+  "inbound": [
+    {
+      "short_name": "Ballybrit Ind Est",
+      "long_name": "Ballybrit Ind Est (HP)",
+      "stop_id": 8473,
+      "stop_ref": "531451",
+      "irish_short_name": "E.T. Bhl an Bhriot.",
+      "irish_long_name": "",
+      "latitude": 53.29257,
+      "longitude": -9.00806
+    },
+    {
+      "short_name": "Bohermore",
+      "long_name": "Bohermore (Opp Tonerys Pub)",
+      "stop_id": 8268,
+      "stop_ref": "522631",
+      "irish_short_name": "An Bóthar Mór",
+      "irish_long_name": "",
+      "latitude": 53.27861,
+      "longitude": -9.04512
+    },
+    {
+      "short_name": "Bohermore",
+      "long_name": "Bohermore (Liam Mellows Tce)",
+      "stop_id": 8269,
+      "stop_ref": "522651",
+      "irish_short_name": "An Bóthar Mór",
+      "irish_long_name": "",
+      "latitude": 53.28037,
+      "longitude": -9.04252
+    },
+    {
+      "short_name": "Bohermore",
+      "long_name": "Bohermore (Spar Filling Station)",
+      "stop_id": 8270,
+      "stop_ref": "522681",
+      "irish_short_name": "An Bóthar Mór",
+      "irish_long_name": "",
+      "latitude": 53.28202,
+      "longitude": -9.03857
+    },
+    {
+      "short_name": "Capwell Depot",
+      "long_name": "College Rd Galway (City Hall)",
+      "stop_id": 8321,
+      "stop_ref": "523231",
+      "irish_short_name": "Iosta T. an Chaipín",
+      "irish_long_name": "",
+      "latitude": 53.27624,
+      "longitude": -9.0418
+    },
+    {
+      "short_name": "College Road",
+      "long_name": "College Rd Galway (Sportsground)",
+      "stop_id": 8322,
+      "stop_ref": "523241",
+      "irish_short_name": "Bóthar an Choláiste",
+      "irish_long_name": "",
+      "latitude": 53.27921,
+      "longitude": -9.03763
+    },
+    {
+      "short_name": "College Road",
+      "long_name": "College Rd Galway (Loyola Park)",
+      "stop_id": 8323,
+      "stop_ref": "523251",
+      "irish_short_name": "Bóthar an Choláiste",
+      "irish_long_name": "",
+      "latitude": 53.27993,
+      "longitude": -9.03653
+    },
+    {
+      "short_name": "Deochuisce Rd",
+      "long_name": "Doughiska Rd (An Fiodan)",
+      "stop_id": 8467,
+      "stop_ref": "524191",
+      "irish_short_name": "Br Dhabhach Uisce",
+      "irish_long_name": "",
+      "latitude": 53.28201,
+      "longitude": -8.9787
+    },
+    {
+      "short_name": "Deochuisce Rd",
+      "long_name": "Doughiska Rd (Amber Hse Hotel)",
+      "stop_id": 8468,
+      "stop_ref": "524201",
+      "irish_short_name": "Br Dhabhach Uisce",
+      "irish_long_name": "",
+      "latitude": 53.28381,
+      "longitude": -8.98068
+    },
+    {
+      "short_name": "Deochuisce Rd",
+      "long_name": "Doughiska Rd (Merlin Woods Prm Sch)",
+      "stop_id": 8469,
+      "stop_ref": "524211",
+      "irish_short_name": "Br Dhabhach Uisce",
+      "irish_long_name": "",
+      "latitude": 53.285,
+      "longitude": -8.98209
+    },
+    {
+      "short_name": "Deochuisce Rd",
+      "long_name": "Doughiska Rd (Nestors Centra)",
+      "stop_id": 8470,
+      "stop_ref": "524221",
+      "irish_short_name": "Br Dhabhach Uisce",
+      "irish_long_name": "",
+      "latitude": 53.2863,
+      "longitude": -8.98352
+    },
+    {
+      "short_name": "Deochuisce Rd",
+      "long_name": "Doughiska Rd (NCT Entrance)",
+      "stop_id": 8471,
+      "stop_ref": "524231",
+      "irish_short_name": "Br Dhabhach Uisce",
+      "irish_long_name": "",
+      "latitude": 53.28825,
+      "longitude": -8.98587
+    },
+    {
+      "short_name": "Deochuisce Rd",
+      "long_name": "Doughiska Rd (Op Brierhill Shop Cen)",
+      "stop_id": 8472,
+      "stop_ref": "524241",
+      "irish_short_name": "Br Dhabhach Uisce",
+      "irish_long_name": "",
+      "latitude": 53.29036,
+      "longitude": -8.98824
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (G Hotel)",
+      "stop_id": 8271,
+      "stop_ref": "522691",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.28115,
+      "longitude": -9.03185
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (Opp Renmore Park)",
+      "stop_id": 8272,
+      "stop_ref": "522701",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.27982,
+      "longitude": -9.0248
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (GMIT)",
+      "stop_id": 5859,
+      "stop_ref": "522811",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.2772,
+      "longitude": -9.00997
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (Glenina Heights)",
+      "stop_id": 8462,
+      "stop_ref": "524131",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.27874,
+      "longitude": -9.02014
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (Opp Dawn Dairies)",
+      "stop_id": 8463,
+      "stop_ref": "524141",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.27771,
+      "longitude": -9.01452
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (Opp Galway Crystal Jctn)",
+      "stop_id": 8464,
+      "stop_ref": "524151",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.27446,
+      "longitude": -8.99746
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (Opp Coast Rd Jctn)",
+      "stop_id": 8465,
+      "stop_ref": "524171",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.27544,
+      "longitude": -8.9839
+    },
+    {
+      "short_name": "Go Bus Office",
+      "long_name": "Br Brendain Ui Either (Go Bus Office)",
+      "stop_id": 8320,
+      "stop_ref": "523211",
+      "irish_short_name": "Oifig Go Bus",
+      "irish_long_name": "",
+      "latitude": 53.27624,
+      "longitude": -9.04678
+    },
+    {
+      "short_name": "Monivea Rd",
+      "long_name": "Monivea Rd (Opp Wellpark Est)",
+      "stop_id": 8325,
+      "stop_ref": "523271",
+      "irish_short_name": "Br Mhuine Mheá",
+      "irish_long_name": "",
+      "latitude": 53.28393,
+      "longitude": -9.02772
+    },
+    {
+      "short_name": "Monivea Rd",
+      "long_name": "Monivea Rd (Opp Monivea Park)",
+      "stop_id": 8328,
+      "stop_ref": "523301",
+      "irish_short_name": "Br Mhuine Mheá",
+      "irish_long_name": "",
+      "latitude": 53.28894,
+      "longitude": -9.01533
+    },
+    {
+      "short_name": "Monivea Rd",
+      "long_name": "Monivea Rd (VEC)",
+      "stop_id": 8324,
+      "stop_ref": "533261",
+      "irish_short_name": "Br Mhuine Mheá",
+      "irish_long_name": "",
+      "latitude": 53.2827,
+      "longitude": -9.03273
+    },
+    {
+      "short_name": "Parkmore Rd",
+      "long_name": "Parkmore Rd (Racecourse Side Gate)",
+      "stop_id": 8340,
+      "stop_ref": "523431",
+      "irish_short_name": "Br na Páirce Móire",
+      "irish_long_name": "",
+      "latitude": 53.29698,
+      "longitude": -8.98601
+    },
+    {
+      "short_name": "Parkmore Rd",
+      "long_name": "Parkmore Rd (Parkmore Ind Est)",
+      "stop_id": 8341,
+      "stop_ref": "555431",
+      "irish_short_name": "Br na Páirce Móire",
+      "irish_long_name": "",
+      "latitude": 53.29884,
+      "longitude": -8.9872
+    },
+    {
+      "short_name": "Parkmore Rd",
+      "long_name": "Parkmore Rd (Roundabout)",
+      "stop_id": 8342,
+      "stop_ref": "635561",
+      "irish_short_name": "Br na Páirce Móire",
+      "irish_long_name": "",
+      "latitude": 53.29909,
+      "longitude": -8.98695
+    },
+    {
+      "short_name": "Prospect Hill",
+      "long_name": "Prospect Hill (Fahys Pub)",
+      "stop_id": 8267,
+      "stop_ref": "522621",
+      "irish_short_name": "Cnoc na Radharc",
+      "irish_long_name": "",
+      "latitude": 53.27743,
+      "longitude": -9.04672
+    }
+  ],
+  "route": {
+    "timetable_id": 409,
+    "long_name": "Parkmore Industrial Estate - Eyre Square",
+    "short_name": "Parkmore"
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "outbound": [
+    {
+      "short_name": "Circular Road",
+      "long_name": "Circular Rd (Opp Currach Bui)",
+      "stop_id": 8379,
+      "stop_ref": "525521",
+      "irish_short_name": "An Cuarbhóthar",
+      "irish_long_name": "",
+      "latitude": 53.27528,
+      "longitude": -9.08202
+    },
+    {
+      "short_name": "Eyre Square",
+      "long_name": "Eyre Square East (Stop No 5)",
+      "stop_id": 8365,
+      "stop_ref": "524371",
+      "irish_short_name": "An Fhaiche Mhór",
+      "irish_long_name": "",
+      "latitude": 53.27499,
+      "longitude": -9.04919
+    },
+    {
+      "short_name": "Lower Newcastle",
+      "long_name": "Lower Newcastle (G u0026 L Stores)",
+      "stop_id": 8367,
+      "stop_ref": "524401",
+      "irish_short_name": "An CaisleánNua Íoc.",
+      "irish_long_name": "",
+      "latitude": 53.28146,
+      "longitude": -9.06491
+    },
+    {
+      "short_name": "Lower Newcastle",
+      "long_name": "Lower Newcastle (Moyola Park Entr)",
+      "stop_id": 8368,
+      "stop_ref": "524411",
+      "irish_short_name": "An CaisleánNua Íoc.",
+      "irish_long_name": "",
+      "latitude": 53.2828,
+      "longitude": -9.06608
+    },
+    {
+      "short_name": "Lower Newcastle",
+      "long_name": "Lower Newcastle (Greenfields Entr)",
+      "stop_id": 8370,
+      "stop_ref": "524431",
+      "irish_short_name": "An CaisleánNua Íoc.",
+      "irish_long_name": "",
+      "latitude": 53.28688,
+      "longitude": -9.06891
+    },
+    {
+      "short_name": "Newcastle Rd Uppr",
+      "long_name": "Newcastle Rd Uppr (Opp NUIG West Gate)",
+      "stop_id": 8366,
+      "stop_ref": "525651",
+      "irish_short_name": "Br an Chaisleáin N.",
+      "irish_long_name": "",
+      "latitude": 53.2789,
+      "longitude": -9.06327
+    },
+    {
+      "short_name": "Siobhain McKenna Rd",
+      "long_name": "Siobhain McKenna Rd (Corrib Pk)",
+      "stop_id": 8376,
+      "stop_ref": "524481",
+      "irish_short_name": "Br S. Nic Cionnaith",
+      "irish_long_name": "",
+      "latitude": 53.28148,
+      "longitude": -9.07428
+    },
+    {
+      "short_name": "Siobhain McKenna Rd",
+      "long_name": "Siobhain McKenna Rd (Camillaun Pk)",
+      "stop_id": 8377,
+      "stop_ref": "524491",
+      "irish_short_name": "Br S. Nic Cionnaith",
+      "irish_long_name": "",
+      "latitude": 53.27948,
+      "longitude": -9.07748
+    },
+    {
+      "short_name": "Siobhain McKenna Rd",
+      "long_name": "Siobhain McKenna Rd (Westside Pitches)",
+      "stop_id": 8378,
+      "stop_ref": "525501",
+      "irish_short_name": "Br S. Nic Cionnaith",
+      "irish_long_name": "",
+      "latitude": 53.27695,
+      "longitude": -9.08051
+    },
+    {
+      "short_name": "Thomas Hynes Rd",
+      "long_name": "Thomas Hynes Rd (Clifton Pk)",
+      "stop_id": 8371,
+      "stop_ref": "524441",
+      "irish_short_name": "Br Thomáis Uí Eidh.",
+      "irish_long_name": "",
+      "latitude": 53.28815,
+      "longitude": -9.07465
+    },
+    {
+      "short_name": "Thomas Hynes Rd",
+      "long_name": "Thomas Hynes Rd (St Josephs School)",
+      "stop_id": 8373,
+      "stop_ref": "524461",
+      "irish_short_name": "Br Thomáis Uí Eidh.",
+      "irish_long_name": "",
+      "latitude": 53.28345,
+      "longitude": -9.07273
+    },
+    {
+      "short_name": "University Rd",
+      "long_name": "University Rd (Cathedral)",
+      "stop_id": 8303,
+      "stop_ref": "522571",
+      "irish_short_name": "Br na hOllscoile",
+      "irish_long_name": "",
+      "latitude": 53.27549,
+      "longitude": -9.05693
+    },
+    {
+      "short_name": "University Rd",
+      "long_name": "University Rd (Opp NUIG Main Gate)",
+      "stop_id": 8304,
+      "stop_ref": "523031",
+      "irish_short_name": "Br na hOllscoile",
+      "irish_long_name": "",
+      "latitude": 53.27645,
+      "longitude": -9.06116
+    },
+    {
+      "short_name": "Westside S.C.",
+      "long_name": "Westside (Shopping Centre)",
+      "stop_id": 8381,
+      "stop_ref": "525541",
+      "irish_short_name": "IS an Taoibh Thiar",
+      "irish_long_name": "",
+      "latitude": 53.27615,
+      "longitude": -9.0776
+    }
+  ],
+  "inbound": [
+    {
+      "short_name": "Eyre Square",
+      "long_name": "Eyre Square North (Stop No 2)",
+      "stop_id": 8391,
+      "stop_ref": "524121",
+      "irish_short_name": "An Fhaiche Mhór",
+      "irish_long_name": "",
+      "latitude": 53.27507,
+      "longitude": -9.04985
+    },
+    {
+      "short_name": "Lower Newcastle",
+      "long_name": "Lower Newcastle (Corrib Village)",
+      "stop_id": 8387,
+      "stop_ref": "525611",
+      "irish_short_name": "An CaisleánNua Íoc.",
+      "irish_long_name": "",
+      "latitude": 53.2876,
+      "longitude": -9.06956
+    },
+    {
+      "short_name": "Lower Newcastle",
+      "long_name": "Lower Newcastle (AIB Bank)",
+      "stop_id": 8389,
+      "stop_ref": "525631",
+      "irish_short_name": "An CaisleánNua Íoc.",
+      "irish_long_name": "",
+      "latitude": 53.28141,
+      "longitude": -9.06474
+    },
+    {
+      "short_name": "Newcastle Rd",
+      "long_name": "Newcastle Rd (NUIG West Gate)",
+      "stop_id": 8390,
+      "stop_ref": "525681",
+      "irish_short_name": "Br an Chaisleáin N.",
+      "irish_long_name": "",
+      "latitude": 53.27858,
+      "longitude": -9.06316
+    },
+    {
+      "short_name": "Siobhain McKenna Rd",
+      "long_name": "Siobhain McKenna Rd (Gaelcarrig Pk)",
+      "stop_id": 8382,
+      "stop_ref": "525561",
+      "irish_short_name": "Br S. Nic Cionnaith",
+      "irish_long_name": "",
+      "latitude": 53.27919,
+      "longitude": -9.07775
+    },
+    {
+      "short_name": "Siobhain McKenna Rd",
+      "long_name": "Siobhain McKenna Rd (Laurel Park)",
+      "stop_id": 8383,
+      "stop_ref": "525571",
+      "irish_short_name": "Br S. Nic Cionnaith",
+      "irish_long_name": "",
+      "latitude": 53.28155,
+      "longitude": -9.07414
+    },
+    {
+      "short_name": "Thomas Hynes Rd",
+      "long_name": "Thomas Hynes Rd (Opp St Josephs Sch)",
+      "stop_id": 8384,
+      "stop_ref": "525581",
+      "irish_short_name": "Br Thomáis Uí Eidh.",
+      "irish_long_name": "",
+      "latitude": 53.28363,
+      "longitude": -9.07293
+    },
+    {
+      "short_name": "Thomas Hynes Rd",
+      "long_name": "Thomas Hynes Rd (Tudor Lawns)",
+      "stop_id": 8386,
+      "stop_ref": "525601",
+      "irish_short_name": "Br Thomáis Uí Eidh.",
+      "irish_long_name": "",
+      "latitude": 53.28851,
+      "longitude": -9.07469
+    },
+    {
+      "short_name": "University Rd",
+      "long_name": "University Rd (NUIG Main Gate)",
+      "stop_id": 8263,
+      "stop_ref": "522561",
+      "irish_short_name": "Br na hOllscoile",
+      "irish_long_name": "",
+      "latitude": 53.27665,
+      "longitude": -9.06194
+    },
+    {
+      "short_name": "University Rd",
+      "long_name": "University Rd (Opp Cathedral)",
+      "stop_id": 8264,
+      "stop_ref": "523181",
+      "irish_short_name": "Br na hOllscoile",
+      "irish_long_name": "",
+      "latitude": 53.2758,
+      "longitude": -9.0582
+    },
+    {
+      "short_name": "Westside S.C.",
+      "long_name": "Westside (Shopping Centre)",
+      "stop_id": 8381,
+      "stop_ref": "525541",
+      "irish_short_name": "IS an Taoibh Thiar",
+      "irish_long_name": "",
+      "latitude": 53.27615,
+      "longitude": -9.0776
+    }
+  ],
+  "route": {
+    "timetable_id": 404,
+    "long_name": "Newcastle - Eyre Square",
+    "short_name": "Newcastle"
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "outbound": [
+    {
+      "short_name": "Capwell Depot",
+      "long_name": "College Rd Galway (City Hall)",
+      "stop_id": 8321,
+      "stop_ref": "523231",
+      "irish_short_name": "Iosta T. an Chaipín",
+      "irish_long_name": "",
+      "latitude": 53.27624,
+      "longitude": -9.0418
+    },
+    {
+      "short_name": "College Road",
+      "long_name": "College Rd Galway (Sportsground)",
+      "stop_id": 8322,
+      "stop_ref": "523241",
+      "irish_short_name": "Bóthar an Choláiste",
+      "irish_long_name": "",
+      "latitude": 53.27921,
+      "longitude": -9.03763
+    },
+    {
+      "short_name": "College Road",
+      "long_name": "College Rd Galway (Loyola Park)",
+      "stop_id": 8323,
+      "stop_ref": "523251",
+      "irish_short_name": "Bóthar an Choláiste",
+      "irish_long_name": "",
+      "latitude": 53.27993,
+      "longitude": -9.03653
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (G Hotel)",
+      "stop_id": 8271,
+      "stop_ref": "522691",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.28115,
+      "longitude": -9.03185
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (Opp Renmore Park)",
+      "stop_id": 8272,
+      "stop_ref": "522701",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.27982,
+      "longitude": -9.0248
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (GMIT)",
+      "stop_id": 5859,
+      "stop_ref": "522811",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.2772,
+      "longitude": -9.00997
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (Glenina Heights)",
+      "stop_id": 8462,
+      "stop_ref": "524131",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.27874,
+      "longitude": -9.02014
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (Opp Dawn Dairies)",
+      "stop_id": 8463,
+      "stop_ref": "524141",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.27771,
+      "longitude": -9.01452
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (Opp Galway Crystal Jctn)",
+      "stop_id": 8464,
+      "stop_ref": "524151",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.27446,
+      "longitude": -8.99746
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (Opp Coast Rd Jctn)",
+      "stop_id": 8465,
+      "stop_ref": "524171",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.27544,
+      "longitude": -8.9839
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (Galway Clinic)",
+      "stop_id": 8474,
+      "stop_ref": "888421",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.28197,
+      "longitude": -8.9733
+    },
+    {
+      "short_name": "Go Bus Office",
+      "long_name": "Br Brendain Ui Either (Go Bus Office)",
+      "stop_id": 8320,
+      "stop_ref": "523211",
+      "irish_short_name": "Oifig Go Bus",
+      "irish_long_name": "",
+      "latitude": 53.27624,
+      "longitude": -9.04678
+    }
+  ],
+  "inbound": [
+    {
+      "short_name": "College Road",
+      "long_name": "College Rd Galway (Opp Loyola Pk)",
+      "stop_id": 8361,
+      "stop_ref": "523671",
+      "irish_short_name": "Bóthar an Choláiste",
+      "irish_long_name": "",
+      "latitude": 53.28011,
+      "longitude": -9.03617
+    },
+    {
+      "short_name": "College Road",
+      "long_name": "College Rd Galway (Opp Sportsground)",
+      "stop_id": 8362,
+      "stop_ref": "523681",
+      "irish_short_name": "Bóthar an Choláiste",
+      "irish_long_name": "",
+      "latitude": 53.27877,
+      "longitude": -9.03824
+    },
+    {
+      "short_name": "College Road",
+      "long_name": "College Rd Galway (Opp City Hall)",
+      "stop_id": 8363,
+      "stop_ref": "523691",
+      "irish_short_name": "Bóthar an Choláiste",
+      "irish_long_name": "",
+      "latitude": 53.27642,
+      "longitude": -9.04153
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (Opp Woodhaven)",
+      "stop_id": 8284,
+      "stop_ref": "522831",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.27654,
+      "longitude": -9.00506
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (Opp GMIT)",
+      "stop_id": 7911,
+      "stop_ref": "522841",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.27717,
+      "longitude": -9.01056
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (Woodlands)",
+      "stop_id": 8295,
+      "stop_ref": "522961",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.28022,
+      "longitude": -9.02664
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (Opp G Hotel)",
+      "stop_id": 8296,
+      "stop_ref": "522971",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.28174,
+      "longitude": -9.03293
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (Kingsvalley Hotel)",
+      "stop_id": 8458,
+      "stop_ref": "524331",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.27499,
+      "longitude": -8.99944
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (Dawn Dairies)",
+      "stop_id": 8459,
+      "stop_ref": "524341",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.27761,
+      "longitude": -9.01396
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (Opp Glenina Hgts)",
+      "stop_id": 8460,
+      "stop_ref": "524351",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.2785,
+      "longitude": -9.01902
+    },
+    {
+      "short_name": "Dublin Rd",
+      "long_name": "Dublin Rd (Galway Clinic)",
+      "stop_id": 8474,
+      "stop_ref": "888421",
+      "irish_short_name": "Br Bhaile Átha Cl.",
+      "irish_long_name": "",
+      "latitude": 53.28197,
+      "longitude": -8.9733
+    }
+  ],
+  "route": {
+    "timetable_id": 410,
+    "long_name": "Oranmore - Eyre Square",
+    "short_name": "Oranmore"
+  }
+}

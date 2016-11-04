@@ -1,0 +1,381 @@
+{
+  "outbound": [
+    {
+      "short_name": "Ballybane Rd",
+      "long_name": "Ballybane Rd (Opp Shopping Centre)",
+      "stop_id": 8329,
+      "stop_ref": "523311",
+      "irish_short_name": "Br an Bhaile Bháin",
+      "irish_long_name": "",
+      "latitude": 53.28634,
+      "longitude": -9.01176
+    },
+    {
+      "short_name": "Ballybrit",
+      "long_name": "Monivea Rd (Clayton Hotel)",
+      "stop_id": 8338,
+      "stop_ref": "520321",
+      "irish_short_name": "Baile an Bhriotaigh",
+      "irish_long_name": "",
+      "latitude": 53.29107,
+      "longitude": -8.98889
+    },
+    {
+      "short_name": "Capwell Depot",
+      "long_name": "College Rd Galway (City Hall)",
+      "stop_id": 8321,
+      "stop_ref": "523231",
+      "irish_short_name": "Iosta T. an Chaipín",
+      "irish_long_name": "",
+      "latitude": 53.27624,
+      "longitude": -9.0418
+    },
+    {
+      "short_name": "Castlepark Rd",
+      "long_name": "Castlepark Rd (Opp John Paul Centre)",
+      "stop_id": 8331,
+      "stop_ref": "523331",
+      "irish_short_name": "Br P. an Chaisleáin",
+      "irish_long_name": "",
+      "latitude": 53.28125,
+      "longitude": -9.00628
+    },
+    {
+      "short_name": "Castlepark Rd",
+      "long_name": "Castlepark Rd (Opp Community Centre)",
+      "stop_id": 8332,
+      "stop_ref": "523341",
+      "irish_short_name": "Br P. an Chaisleáin",
+      "irish_long_name": "",
+      "latitude": 53.28275,
+      "longitude": -9.0036
+    },
+    {
+      "short_name": "Castlepark Rd",
+      "long_name": "Castlepark Rd (Opp Gortcam)",
+      "stop_id": 8333,
+      "stop_ref": "523351",
+      "irish_short_name": "Br P. an Chaisleáin",
+      "irish_long_name": "",
+      "latitude": 53.28595,
+      "longitude": -9.0022
+    },
+    {
+      "short_name": "Castlepark Rd",
+      "long_name": "Castlepark Rd (Opp Glenavon Drive)",
+      "stop_id": 8334,
+      "stop_ref": "523361",
+      "irish_short_name": "Br P. an Chaisleáin",
+      "irish_long_name": "",
+      "latitude": 53.28729,
+      "longitude": -9.00374
+    },
+    {
+      "short_name": "College Road",
+      "long_name": "College Rd Galway (Sportsground)",
+      "stop_id": 8322,
+      "stop_ref": "523241",
+      "irish_short_name": "Bóthar an Choláiste",
+      "irish_long_name": "",
+      "latitude": 53.27921,
+      "longitude": -9.03763
+    },
+    {
+      "short_name": "College Road",
+      "long_name": "College Rd Galway (Loyola Park)",
+      "stop_id": 8323,
+      "stop_ref": "523251",
+      "irish_short_name": "Bóthar an Choláiste",
+      "irish_long_name": "",
+      "latitude": 53.27993,
+      "longitude": -9.03653
+    },
+    {
+      "short_name": "Go Bus Office",
+      "long_name": "Br Brendain Ui Either (Go Bus Office)",
+      "stop_id": 8320,
+      "stop_ref": "523211",
+      "irish_short_name": "Oifig Go Bus",
+      "irish_long_name": "",
+      "latitude": 53.27624,
+      "longitude": -9.04678
+    },
+    {
+      "short_name": "Monivea Rd",
+      "long_name": "Monivea Rd (Opp Wellpark Est)",
+      "stop_id": 8325,
+      "stop_ref": "523271",
+      "irish_short_name": "Br Mhuine Mheá",
+      "irish_long_name": "",
+      "latitude": 53.28393,
+      "longitude": -9.02772
+    },
+    {
+      "short_name": "Monivea Rd",
+      "long_name": "Monivea Rd (Opp Monivea Park)",
+      "stop_id": 8328,
+      "stop_ref": "523301",
+      "irish_short_name": "Br Mhuine Mheá",
+      "irish_long_name": "",
+      "latitude": 53.28894,
+      "longitude": -9.01533
+    },
+    {
+      "short_name": "Monivea Rd",
+      "long_name": "Monivea Rd (Opp Ballybrit Heights)",
+      "stop_id": 8336,
+      "stop_ref": "523391",
+      "irish_short_name": "Br Mhuine Mheá",
+      "irish_long_name": "",
+      "latitude": 53.28976,
+      "longitude": -8.99836
+    },
+    {
+      "short_name": "Monivea Rd",
+      "long_name": "Monivea Rd (Jctn Lios Caisil)",
+      "stop_id": 8337,
+      "stop_ref": "530421",
+      "irish_short_name": "Br Mhuine Mheá",
+      "irish_long_name": "",
+      "latitude": 53.29106,
+      "longitude": -8.99288
+    },
+    {
+      "short_name": "Monivea Rd",
+      "long_name": "Monivea Rd (VEC)",
+      "stop_id": 8324,
+      "stop_ref": "533261",
+      "irish_short_name": "Br Mhuine Mheá",
+      "irish_long_name": "",
+      "latitude": 53.2827,
+      "longitude": -9.03273
+    },
+    {
+      "short_name": "Parkmore Rd",
+      "long_name": "Parkmore Rd (Racecourse Side Gate)",
+      "stop_id": 8340,
+      "stop_ref": "523431",
+      "irish_short_name": "Br na Páirce Móire",
+      "irish_long_name": "",
+      "latitude": 53.29698,
+      "longitude": -8.98601
+    },
+    {
+      "short_name": "Parkmore Rd",
+      "long_name": "Parkmore Rd (Parkmore Ind Est)",
+      "stop_id": 8341,
+      "stop_ref": "555431",
+      "irish_short_name": "Br na Páirce Móire",
+      "irish_long_name": "",
+      "latitude": 53.29884,
+      "longitude": -8.9872
+    },
+    {
+      "short_name": "Parkmore Rd",
+      "long_name": "Parkmore Rd (Roundabout)",
+      "stop_id": 8342,
+      "stop_ref": "635561",
+      "irish_short_name": "Br na Páirce Móire",
+      "irish_long_name": "",
+      "latitude": 53.29909,
+      "longitude": -8.98695
+    }
+  ],
+  "inbound": [
+    {
+      "short_name": "Ballybane Rd",
+      "long_name": "Ballybane Rd (John Paul Centre)",
+      "stop_id": 8353,
+      "stop_ref": "523541",
+      "irish_short_name": "Br an Bhaile Bháin",
+      "irish_long_name": "",
+      "latitude": 53.2806,
+      "longitude": -9.00724
+    },
+    {
+      "short_name": "Ballybane Rd",
+      "long_name": "Ballybane Rd (St James Rd)",
+      "stop_id": 8354,
+      "stop_ref": "523551",
+      "irish_short_name": "Br an Bhaile Bháin",
+      "irish_long_name": "",
+      "latitude": 53.28141,
+      "longitude": -9.00992
+    },
+    {
+      "short_name": "Ballybane Rd",
+      "long_name": "Ballybane Rd (Shopping Centre)",
+      "stop_id": 8355,
+      "stop_ref": "523561",
+      "irish_short_name": "Br an Bhaile Bháin",
+      "irish_long_name": "",
+      "latitude": 53.2851,
+      "longitude": -9.01108
+    },
+    {
+      "short_name": "Castlepark Rd",
+      "long_name": "Castlepark Rd (Glenavon Drive)",
+      "stop_id": 8349,
+      "stop_ref": "523501",
+      "irish_short_name": "Br P. an Chaisleáin",
+      "irish_long_name": "",
+      "latitude": 53.28795,
+      "longitude": -9.00431
+    },
+    {
+      "short_name": "Castlepark Rd",
+      "long_name": "Castlepark Rd (Gortcam)",
+      "stop_id": 8350,
+      "stop_ref": "523511",
+      "irish_short_name": "Br P. an Chaisleáin",
+      "irish_long_name": "",
+      "latitude": 53.28622,
+      "longitude": -9.00225
+    },
+    {
+      "short_name": "Castlepark Rd",
+      "long_name": "Castlepark Rd (Sliabh Rua)",
+      "stop_id": 8351,
+      "stop_ref": "523521",
+      "irish_short_name": "Br P. an Chaisleáin",
+      "irish_long_name": "",
+      "latitude": 53.28358,
+      "longitude": -9.00167
+    },
+    {
+      "short_name": "Castlepark Rd",
+      "long_name": "Castlepark Rd (Community Centre)",
+      "stop_id": 8352,
+      "stop_ref": "523531",
+      "irish_short_name": "Br P. an Chaisleáin",
+      "irish_long_name": "",
+      "latitude": 53.28206,
+      "longitude": -9.00493
+    },
+    {
+      "short_name": "College Road",
+      "long_name": "College Rd Galway (Opp Loyola Pk)",
+      "stop_id": 8361,
+      "stop_ref": "523671",
+      "irish_short_name": "Bóthar an Choláiste",
+      "irish_long_name": "",
+      "latitude": 53.28011,
+      "longitude": -9.03617
+    },
+    {
+      "short_name": "College Road",
+      "long_name": "College Rd Galway (Opp Sportsground)",
+      "stop_id": 8362,
+      "stop_ref": "523681",
+      "irish_short_name": "Bóthar an Choláiste",
+      "irish_long_name": "",
+      "latitude": 53.27877,
+      "longitude": -9.03824
+    },
+    {
+      "short_name": "College Road",
+      "long_name": "College Rd Galway (Opp City Hall)",
+      "stop_id": 8363,
+      "stop_ref": "523691",
+      "irish_short_name": "Bóthar an Choláiste",
+      "irish_long_name": "",
+      "latitude": 53.27642,
+      "longitude": -9.04153
+    },
+    {
+      "short_name": "Foster St",
+      "long_name": "Forster St (Morgans Hotel)",
+      "stop_id": 8364,
+      "stop_ref": "524361",
+      "irish_short_name": "Sr Foster",
+      "irish_long_name": "",
+      "latitude": 53.27497,
+      "longitude": -9.04656
+    },
+    {
+      "short_name": "Monivea Rd",
+      "long_name": "Monivea Rd (Opp Clayton Hotel)",
+      "stop_id": 8345,
+      "stop_ref": "523461",
+      "irish_short_name": "Br Mhuine Mheá",
+      "irish_long_name": "",
+      "latitude": 53.29109,
+      "longitude": -8.98874
+    },
+    {
+      "short_name": "Monivea Rd",
+      "long_name": "Monivea Rd (Paddocks)",
+      "stop_id": 8346,
+      "stop_ref": "523471",
+      "irish_short_name": "Br Mhuine Mheá",
+      "irish_long_name": "",
+      "latitude": 53.29092,
+      "longitude": -8.99499
+    },
+    {
+      "short_name": "Monivea Rd",
+      "long_name": "Monivea Rd (Ballybrit Heights)",
+      "stop_id": 8347,
+      "stop_ref": "523481",
+      "irish_short_name": "Br Mhuine Mheá",
+      "irish_long_name": "",
+      "latitude": 53.28985,
+      "longitude": -8.99796
+    },
+    {
+      "short_name": "Monivea Rd",
+      "long_name": "Monivea Rd (Monivea Park)",
+      "stop_id": 8356,
+      "stop_ref": "523581",
+      "irish_short_name": "Br Mhuine Mheá",
+      "irish_long_name": "",
+      "latitude": 53.28891,
+      "longitude": -9.01549
+    },
+    {
+      "short_name": "Monivea Rd",
+      "long_name": "Monivea Rd (GMIT Cluam Mhuire)",
+      "stop_id": 8359,
+      "stop_ref": "523651",
+      "irish_short_name": "Br Mhuine Mheá",
+      "irish_long_name": "",
+      "latitude": 53.28445,
+      "longitude": -9.02655
+    },
+    {
+      "short_name": "Monivea Rd",
+      "long_name": "Monivea Rd (Wellpark Retail Est)",
+      "stop_id": 8360,
+      "stop_ref": "523661",
+      "irish_short_name": "Br Mhuine Mheá",
+      "irish_long_name": "",
+      "latitude": 53.28288,
+      "longitude": -9.03183
+    },
+    {
+      "short_name": "Parkmore Rd",
+      "long_name": "Parkmore Rd (Opp Racecourse Side Gate)",
+      "stop_id": 8343,
+      "stop_ref": "523441",
+      "irish_short_name": "Br na Páirce Móire",
+      "irish_long_name": "",
+      "latitude": 53.29734,
+      "longitude": -8.9862
+    },
+    {
+      "short_name": "Parkmore Rd",
+      "long_name": "Parkmore Rd (Roundabout)",
+      "stop_id": 8342,
+      "stop_ref": "635561",
+      "irish_short_name": "Br na Páirce Móire",
+      "irish_long_name": "",
+      "latitude": 53.29909,
+      "longitude": -8.98695
+    }
+  ],
+  "route": {
+    "timetable_id": 403,
+    "long_name": "Castlepark - Eyre Square",
+    "short_name": "Castlepark"
+  }
+}

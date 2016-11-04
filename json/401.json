@@ -1,0 +1,282 @@
+{
+  "outbound": [
+    {
+      "short_name": "Dalysfort Rd",
+      "long_name": "Dalysfort Rd (Top of Hill)",
+      "stop_id": 8225,
+      "stop_ref": "522121",
+      "irish_short_name": "Bóthar an Dúin",
+      "irish_long_name": "",
+      "latitude": 53.25996,
+      "longitude": -9.08001
+    },
+    {
+      "short_name": "Dalysfort Rd",
+      "long_name": "Dalysfort Rd (Hollands Shop)",
+      "stop_id": 8226,
+      "stop_ref": "522131",
+      "irish_short_name": "Bóthar an Dúin",
+      "irish_long_name": "",
+      "latitude": 53.26172,
+      "longitude": -9.08
+    },
+    {
+      "short_name": "Dalysfort Rd",
+      "long_name": "Dalysfort Rd (Dr Mannix Rd Jctn)",
+      "stop_id": 8227,
+      "stop_ref": "522141",
+      "irish_short_name": "Bóthar an Dúin",
+      "irish_long_name": "",
+      "latitude": 53.26423,
+      "longitude": -9.08018
+    },
+    {
+      "short_name": "Dr Mannix Rd",
+      "long_name": "Dr Mannix Rd (Opp Scoil Einne)",
+      "stop_id": 8228,
+      "stop_ref": "522151",
+      "irish_short_name": "Bóthar Uí Mhainchín",
+      "irish_long_name": "",
+      "latitude": 53.26423,
+      "longitude": -9.08379
+    },
+    {
+      "short_name": "Dr Mannix Rd",
+      "long_name": "Dr Mannix Rd (Salthill GAA HQ)",
+      "stop_id": 8229,
+      "stop_ref": "522161",
+      "irish_short_name": "Bóthar Uí Mhainchín",
+      "irish_long_name": "",
+      "latitude": 53.26387,
+      "longitude": -9.08579
+    },
+    {
+      "short_name": "Eyre Square",
+      "long_name": "Eyre Square South (Stop No 9)",
+      "stop_id": 8215,
+      "stop_ref": "522331",
+      "irish_short_name": "An Fhaiche Mhór",
+      "irish_long_name": "",
+      "latitude": 53.27368,
+      "longitude": -9.04878
+    },
+    {
+      "short_name": "Fr Griffin Ave",
+      "long_name": "Fr Griffin Ave (Opp Sea Road)",
+      "stop_id": 8218,
+      "stop_ref": "522031",
+      "irish_short_name": "Asc Ath Uí Ghríofa",
+      "irish_long_name": "",
+      "latitude": 53.26788,
+      "longitude": -9.06299
+    },
+    {
+      "short_name": "Fr Griffin Rd",
+      "long_name": "Fr Griffin Rd (Opp Fr Griffin Park)",
+      "stop_id": 8217,
+      "stop_ref": "522021",
+      "irish_short_name": "Br. Ath Uí Ghríofa",
+      "irish_long_name": "",
+      "latitude": 53.26824,
+      "longitude": -9.05834
+    },
+    {
+      "short_name": "Salthill Rd Lwr",
+      "long_name": "Salthill Rd Lwr (St Josephs)",
+      "stop_id": 8220,
+      "stop_ref": "522071",
+      "irish_short_name": "Br Bhr na Trá Íocht",
+      "irish_long_name": "",
+      "latitude": 53.26683,
+      "longitude": -9.06916
+    },
+    {
+      "short_name": "Salthill Rd Lwr",
+      "long_name": "Salthill Rd Lwr (Opp Devon Park)",
+      "stop_id": 8221,
+      "stop_ref": "522081",
+      "irish_short_name": "Br Bhr na Trá Íocht",
+      "irish_long_name": "",
+      "latitude": 53.26495,
+      "longitude": -9.07225
+    },
+    {
+      "short_name": "Salthill Rd Lwr",
+      "long_name": "Salthill Rd Lwr (Opp Warwick Hotel)",
+      "stop_id": 8222,
+      "stop_ref": "522091",
+      "irish_short_name": "Br Bhr na Trá Íocht",
+      "irish_long_name": "",
+      "latitude": 53.26258,
+      "longitude": -9.07279
+    },
+    {
+      "short_name": "Spanish Parade",
+      "long_name": "Spanish Parade (Spanish Arch)",
+      "stop_id": 8216,
+      "stop_ref": "522011",
+      "irish_short_name": "Paráid na Spáinne.",
+      "irish_long_name": "",
+      "latitude": 53.27041,
+      "longitude": -9.05477
+    },
+    {
+      "short_name": "Upper Salthill Rd",
+      "long_name": "Upper Salthill Rd (Canton Kitchen)",
+      "stop_id": 8223,
+      "stop_ref": "522101",
+      "irish_short_name": "Br Bhr. na Trá Uach",
+      "irish_long_name": "",
+      "latitude": 53.26082,
+      "longitude": -9.07509
+    },
+    {
+      "short_name": "Upper Salthill Rd",
+      "long_name": "Upper Salthill Rd (Opp Western House)",
+      "stop_id": 8224,
+      "stop_ref": "522111",
+      "irish_short_name": "Br Bhr. na Trá Uach",
+      "irish_long_name": "",
+      "latitude": 53.2583,
+      "longitude": -9.079
+    }
+  ],
+  "inbound": [
+    {
+      "short_name": "Dr Mannix Rd",
+      "long_name": "Dr Mannix Rd (Salthill GAA HQ)",
+      "stop_id": 8229,
+      "stop_ref": "522161",
+      "irish_short_name": "Bóthar Uí Mhainchín",
+      "irish_long_name": "",
+      "latitude": 53.26387,
+      "longitude": -9.08579
+    },
+    {
+      "short_name": "Fr Griffin Ave",
+      "long_name": "Fr Griffin Ave (Montpellier Terrace)",
+      "stop_id": 8239,
+      "stop_ref": "522281",
+      "irish_short_name": "Asc Ath Uí Ghríofa",
+      "irish_long_name": "",
+      "latitude": 53.26755,
+      "longitude": -9.06217
+    },
+    {
+      "short_name": "Fr Griffin Rd",
+      "long_name": "Fr Griffin Rd (Fr Griffin Park)",
+      "stop_id": 8240,
+      "stop_ref": "522291",
+      "irish_short_name": "Br. Ath Uí Ghríofa",
+      "irish_long_name": "",
+      "latitude": 53.26858,
+      "longitude": -9.0581
+    },
+    {
+      "short_name": "Merchants Rd",
+      "long_name": "Merchants Rd (Kinlay House)",
+      "stop_id": 8242,
+      "stop_ref": "524501",
+      "irish_short_name": "Br na gCeannaithe",
+      "irish_long_name": "",
+      "latitude": 53.27314,
+      "longitude": -9.04878
+    },
+    {
+      "short_name": "Salthill Rd Lwr",
+      "long_name": "Salthill Rd Lwr (Opp Kelleghers Gar)",
+      "stop_id": 8235,
+      "stop_ref": "522231",
+      "irish_short_name": "Br Bhr na Trá Íocht",
+      "irish_long_name": "",
+      "latitude": 53.26381,
+      "longitude": -9.07248
+    },
+    {
+      "short_name": "Salthill Rd Lwr",
+      "long_name": "Salthill Rd Lwr (Devon Park)",
+      "stop_id": 8236,
+      "stop_ref": "522251",
+      "irish_short_name": "Br Bhr na Trá Íocht",
+      "irish_long_name": "",
+      "latitude": 53.26531,
+      "longitude": -9.07228
+    },
+    {
+      "short_name": "Salthill Rd Lwr",
+      "long_name": "Salthill Rd Lwr (Feeneys Shop)",
+      "stop_id": 8237,
+      "stop_ref": "522261",
+      "irish_short_name": "Br Bhr na Trá Íocht",
+      "irish_long_name": "",
+      "latitude": 53.26709,
+      "longitude": -9.06866
+    },
+    {
+      "short_name": "Spanish Parade",
+      "long_name": "Spanish Parade (Jurys Hotel)",
+      "stop_id": 8241,
+      "stop_ref": "522311",
+      "irish_short_name": "Paráid na Spáinne.",
+      "irish_long_name": "",
+      "latitude": 53.27035,
+      "longitude": -9.054
+    },
+    {
+      "short_name": "Threadneedle Rd",
+      "long_name": "Threadneedle Rd (Opp Tennis Courts)",
+      "stop_id": 8230,
+      "stop_ref": "522181",
+      "irish_short_name": "Br na Mine",
+      "irish_long_name": "",
+      "latitude": 53.2627,
+      "longitude": -9.08947
+    },
+    {
+      "short_name": "Upper Salthill Rd",
+      "long_name": "Upper Salthill Rd (Diving Board)",
+      "stop_id": 8231,
+      "stop_ref": "522191",
+      "irish_short_name": "Br Bhr. na Trá Uach",
+      "irish_long_name": "",
+      "latitude": 53.25749,
+      "longitude": -9.08994
+    },
+    {
+      "short_name": "Upper Salthill Rd",
+      "long_name": "Upper Salthill Rd (Salthill Hotel)",
+      "stop_id": 8232,
+      "stop_ref": "522201",
+      "irish_short_name": "Br Bhr. na Trá Uach",
+      "irish_long_name": "",
+      "latitude": 53.25794,
+      "longitude": -9.0858
+    },
+    {
+      "short_name": "Upper Salthill Rd",
+      "long_name": "Upper Salthill Rd (Waterfront)",
+      "stop_id": 8233,
+      "stop_ref": "522211",
+      "irish_short_name": "Br Bhr. na Trá Uach",
+      "irish_long_name": "",
+      "latitude": 53.25858,
+      "longitude": -9.07883
+    },
+    {
+      "short_name": "Upper Salthill Rd",
+      "long_name": "Upper Salthill Rd (Caesars Palace)",
+      "stop_id": 8234,
+      "stop_ref": "522221",
+      "irish_short_name": "Br Bhr. na Trá Uach",
+      "irish_long_name": "",
+      "latitude": 53.26124,
+      "longitude": -9.0748
+    }
+  ],
+  "stops": [],
+  "route": {
+    "timetable_id": 401,
+    "long_name": "Salthill - Eyre Square",
+    "short_name": "Salthill"
+  }
+}
