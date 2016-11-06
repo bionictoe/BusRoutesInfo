@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="9ae6f53d-398c-44bf-84a4-9de6f9c6b530" name="GalwayBusInfoServer" url="http://galwaybusroutes.info/">
-        <fileTransfer host="galwaybusroutes.info" port="21" rootFolder="/webspace/httpdocs/galwaybusroutes.info">
+      <webServer id="9ae6f53d-398c-44bf-84a4-9de6f9c6b530" name="GalwayBusInfoServer" url="https://galwaybusroutes.info/">
+        <fileTransfer host="d1204456-72078.cp.blacknight.com" port="21" rootFolder="/webspace/httpdocs/galwaybusroutes.info">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" />
           </advancedOptions>
