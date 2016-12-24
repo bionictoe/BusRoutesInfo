@@ -4,8 +4,12 @@
 var crd, clat, clong, currentLocation, map, here, zoom;
 var stop = 'images/stop.png';
 var markers = [];
-
-
+var directionsService;
+var directionsDisplay;
+var nearest, nlat, nlong;
+var currentstopdistance;
+var neareststopdistance;
+var map;
 
 //getting current location data from browser
 navigator.geolocation.getCurrentPosition(success, error);
@@ -21,6 +25,10 @@ function success(pos) {
     console.log('Longitude: ' + clong);
     console.log('Accurate to approx. ' + crd.accuracy + ' meters.');
     zoom = 17;
+
+    directionsService = new google.maps.DirectionsService;
+    directionsDisplay = new google.maps.DirectionsRenderer;
+
     //setup map
     drawMap();
 }
@@ -93,44 +101,49 @@ function markCurrentLocation(map) {
     marker.setMap(map);
 }
 
-//pass in lat and long of stop
-function markStop(lat, lon) {
-    var marker = new google.maps.Marker({
-            position: new google.maps.LatLng(lat, lon),
-            map: map,
-            animation: google.maps.Animation.DROP,
-            icon: stop
-    });
-    //add marker to markers array
-    markers.push(marker);
-}
-
 function getRoute(routeNumber) {
-    var current = new google.maps.LatLng(clat, clong);
     //clear the screen before drawing route
     clearMarkers();
-    //add markers to map
-    drawMarkers(map);
 
     //get stop locations and draw the stops
-    $.getJSON('json/'+routeNumber+'.json', function (data) {
+    var data = $.getJSON('https://data.dublinked.ie/cgi-bin/rtpi/routeinformation?operator=be&routeid='+routeNumber, function (data) {
+        console.log('Got all stops')
+    })
+    .done(function() {
         //mark all the outbound stops
-        data.outbound.forEach(function(outbound) {
-            markStop(outbound.latitude, outbound.longitude);
-        });
-        //mark all the inbound stops
-        data.inbound.forEach(function(inbound) {
-            markStop(inbound.latitude, inbound.longitude)
-        });
-    });
-    console.log(markers);
-    //draw stops on map
-    drawMarkers(map);
-}
+        data.responseJSON.results.forEach(function(leg) {
+            var origin = leg.origin;
+            var destination = leg.destination;
+            leg.stops.forEach(function(bus) {
+                var infoWindow = new google.maps.InfoWindow({ content: '<b>Stop Name: </b>'+bus.fullname +'<br /><b>Route: </b>'+origin+' to '+destination });
 
-function drawMarkers(routemap){
-    for(var i = 0; i<markers.length; i++)
-        markers[i].setMap(routemap);
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(bus.latitude, bus.longitude),
+                    map: map,
+                    animation: google.maps.Animation.DROP,
+                    title: bus.fullname
+                });
+                google.maps.event.addListener(marker, 'click', (function(infoWindow) {
+                    return function() {
+                        infoWindow.close();
+                        infoWindow.open(map,this);
+                    }
+                })(infoWindow));
+
+                marker.setMap(map);
+            });
+        })
+    })
+    .done(function() {
+        console.log("Nearest stop: "+nearest+" distance(mtrs): "+currentstopdistance);
+    })
+    .done(function() {
+        //mark directions to nearest stop
+        //DisplayRouteToNearestStop(directionsService, directionsDisplay);
+    });
+
+
+
 }
 
 function clearMarkers() {
@@ -145,4 +158,26 @@ function setZoom(direction){
     direction ? zoom++ : zoom--;
     drawMap();
     drawMarkers(map);
+}
+
+function DisplayRouteToNearestStop(directionsService, directionsDisplay)
+{
+    console.log("Drawing Directions to: "+nearest+". Lat: "+nlat+", Long: "+nlong);
+    directionsService.route(
+        {
+            origin: new google.maps.LatLng(clat, clong),
+            destination: new google.maps.LatLng(nlat, nlong),
+            travelMode: google.maps.TravelMode.WALKING
+        },  function(response, status)
+        {
+            if (status === google.maps.DirectionsStatus.OK)
+            {
+                directionsDisplay.setDirections(response);
+            }
+            else
+            {
+                window.alert('Directions request failed due to ' + status);
+            }
+        });
+    $('body').scrollTop(0);
 }
