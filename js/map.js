@@ -7,9 +7,9 @@ var markers = [];
 var directionsService;
 var directionsDisplay;
 var nearest, nlat, nlong;
-var currentstopdistance;
-var neareststopdistance;
+var distancetocurrent, distancetonearest;
 var map;
+
 
 //getting current location data from browser
 navigator.geolocation.getCurrentPosition(success, error);
@@ -51,14 +51,10 @@ function drawMap()
             ]
         },{
             featureType: "poi",
-            stylers: [
-                { visibility: "off" }
-            ]
+            stylers: [{ visibility: "off" }]
         },{
             featureType: "transit",
-            stylers: [
-                { visibility: "off" }
-            ]
+            stylers: [{ visibility: "off" }]
         },{
             featureType: "road",
             stylers: [
@@ -67,9 +63,12 @@ function drawMap()
             ]
         },{
             featureType: "landscape",
-            stylers: [
-                { lightness: "50" }
-            ]
+            stylers: [{ lightness: "50" }]
+        },
+        {
+            featureType: 'road',
+            elementType: 'geometry',
+            stylers: [{color: '0, 0, 0, 0.5'}]
         }
     ]
     //set map options
@@ -78,7 +77,8 @@ function drawMap()
         zoom: zoom,
         center: currentLocation,
         disableDefaultUI: true,
-        mapTypeId: 'hybrid'
+        mapTypeId: 'hybrid',
+        styles: style
     };
     //create new map with previous requirements/specs
     map = new google.maps.Map(document.getElementById("map"), options);
@@ -102,82 +102,129 @@ function markCurrentLocation(map) {
 }
 
 function getRoute(routeNumber) {
-    //clear the screen before drawing route
-    clearMarkers();
-
+    drawMap();
+    closeMenu();
+    toggleLoading();
     //get stop locations and draw the stops
-    var data = $.getJSON('https://data.dublinked.ie/cgi-bin/rtpi/routeinformation?operator=be&routeid='+routeNumber, function (data) {
-        console.log('Got all stops')
-    })
+    var data1 = $.getJSON('https://data.dublinked.ie/cgi-bin/rtpi/routeinformation?operator=be&routeid='+routeNumber)
     .done(function() {
         //mark all the outbound stops
-        data.responseJSON.results.forEach(function(leg) {
+        data1.responseJSON.results.forEach(function(leg) {
             var origin = leg.origin;
             var destination = leg.destination;
+            distancetocurrent = 500000, distancetonearest = 500000;
             leg.stops.forEach(function(bus) {
-                var infoWindow = new google.maps.InfoWindow({ content: '<b>Stop Name: </b>'+bus.fullname +'<br /><b>Route: </b>'+origin+' to '+destination });
+                var busdue;
 
-                var marker = new google.maps.Marker({
-                    position: new google.maps.LatLng(bus.latitude, bus.longitude),
-                    map: map,
-                    animation: google.maps.Animation.DROP,
-                    title: bus.fullname
-                });
-                google.maps.event.addListener(marker, 'click', (function(infoWindow) {
-                    return function() {
-                        infoWindow.close();
-                        infoWindow.open(map,this);
+                /*//get stop times
+                var data2 = $.getJSON('https://data.dublinked.ie/cgi-bin/rtpi/realtimebusinformation?stopid='+ bus.stopid)
+                .done(function() {
+                    if(data2.responseJSON.results) {
+                        busdue = data2.responseJSON.results[0].duetime;
                     }
-                })(infoWindow));
+                });*/
 
-                marker.setMap(map);
+                var data = $.getJSON('https://data.dublinked.ie/cgi-bin/rtpi/realtimebusinformation?stopid='+ bus.stopid, function( data ) {
+                    if(data.results[0] != undefined) {
+                        var content;
+
+                        busdue = data.results[0].duetime;
+
+                        if(busdue.indexOf(':') == -1 && busdue.indexOf('Due') == -1)
+                            busdue += ' Minutes';
+
+                        content = '<b>Stop Name: </b>'+bus.fullname + '<br /><b>Route: </b>'+origin+' to '+destination+'<br /><b>Next Bus: </b> ' + busdue;
+
+                        var infoWindow = new google.maps.InfoWindow({
+                            content: content
+                        });
+
+                        var marker = new google.maps.Marker({
+                            position: new google.maps.LatLng(bus.latitude, bus.longitude),
+                            map: map,
+                            animation: google.maps.Animation.DROP,
+                            title: bus.fullname,
+                            icon: stop
+                        });
+                        google.maps.event.addListener(marker, 'click', (function(infoWindow) {
+                            return function() {
+                                infoWindow.close();
+                                infoWindow.open(map,this);
+                            }
+                        })(infoWindow));
+
+                        marker.setMap(map);
+                    }
+                });
+                //calculate distance between cuurent location and selected stop
+                distancetocurrent = google.maps.geometry.spherical.computeDistanceBetween
+                (
+                    new google.maps.LatLng(clat,clong),
+                    new google.maps.LatLng(bus.latitude,bus.longitude)
+                );
+                if(distancetocurrent < distancetonearest)
+                {
+                    distancetonearest = distancetocurrent;
+                    nearest = bus.fullname;
+                    nlat = bus.latitude;
+                    nlong = bus.longitude;
+                }
             });
         })
     })
     .done(function() {
-        console.log("Nearest stop: "+nearest+" distance(mtrs): "+currentstopdistance);
+        console.log("Nearest stop: "+nearest+" distance(mtrs): "+distancetocurrent);
     })
     .done(function() {
         //mark directions to nearest stop
-        //DisplayRouteToNearestStop(directionsService, directionsDisplay);
+        DisplayRouteToNearestStop(directionsService, directionsDisplay);
+    })
+    .done(function() {
+        toggleLoading();
     });
 
 
 
 }
 
-function clearMarkers() {
-    for(var i=0; i < this.markers.length; i++){
-        this.markers[i].setMap(null);
-    }
-    this.markers = new Array();
-};
-
 function setZoom(direction){
     //if direction is true zoom in, otherwise zooom out
     direction ? zoom++ : zoom--;
     drawMap();
-    drawMarkers(map);
 }
 
 function DisplayRouteToNearestStop(directionsService, directionsDisplay)
 {
+    //TODO: find out which way user is going. Dont want to direct to outgoing stop when user is ingoing
     console.log("Drawing Directions to: "+nearest+". Lat: "+nlat+", Long: "+nlong);
     directionsService.route(
+    {
+        origin: new google.maps.LatLng(clat, clong),
+        destination: new google.maps.LatLng(nlat, nlong),
+        travelMode: google.maps.TravelMode.WALKING
+    },  function(response, status)
+    {
+        if (status === google.maps.DirectionsStatus.OK)
         {
-            origin: new google.maps.LatLng(clat, clong),
-            destination: new google.maps.LatLng(nlat, nlong),
-            travelMode: google.maps.TravelMode.WALKING
-        },  function(response, status)
+            directionsDisplay.setDirections(response);
+        }
+        else
         {
-            if (status === google.maps.DirectionsStatus.OK)
-            {
-                directionsDisplay.setDirections(response);
-            }
-            else
-            {
-                window.alert('Directions request failed due to ' + status);
-            }
-        });
-    $('body').scrollTop(0);
+            window.alert('Directions request failed due to ' + status);
+        }
+    });
+    directionsDisplay.setMap(map);
+    directionsDisplay.setOptions( { suppressMarkers: true } );
+
+}
+ function closeMenu() {
+     //closing menu
+     console.log('Closed menu!');
+     $( "nav" ).toggleClass( "expanded" );
+     $( "body" ).toggleClass( "nav-expanded" );
+ }
+function toggleLoading() {
+    //closing menu
+    console.log('Closed menu!');
+    $( "#loader" ).toggleClass( "hide" );
 }
