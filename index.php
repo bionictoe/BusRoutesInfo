@@ -16,7 +16,7 @@
     <script src="js/jquery.navgoco.js"></script>
     <script src="js/nav.js"></script>
     <script src="js/map.js"></script>
-    <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyDkhbEs2rNoTQssvXx3inVGRRMVUdrNX0Y&libraries=geometry"></script>
+    <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyBNKBi4b62hYCr4v4wKgZdV3rJdmJVrEXk&libraries=geometry"></script>
     <script src="js/routeClickHandlers.js"></script>
 
 </head>
