@@ -34,7 +34,7 @@ function success(pos) {
 }
 
 function error() {
-    alert('Oops!');
+    console.log('Oops!');
 }
 
 function drawMap()
@@ -210,7 +210,7 @@ function DisplayRouteToNearestStop(directionsService, directionsDisplay)
         }
         else
         {
-            window.alert('Directions request failed due to ' + status);
+            console.log('Directions request failed due to ' + status);
         }
     });
     directionsDisplay.setMap(map);
