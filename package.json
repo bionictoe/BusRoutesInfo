@@ -1,0 +1,11 @@
+{
+  "name": "Galway Bus",
+  "version": "1.0.0",
+  "description": "Galway Bus routes & Times - Bus Eirean only for the time being",
+  "scripts": {
+    "start": "harp server --port $PORT"
+  },
+  "dependencies": {
+    "harp": "*"
+  }
+}
